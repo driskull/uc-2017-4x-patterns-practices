@@ -1,4 +1,4 @@
-<!-- .slide: data-background="./reveal.js/img/title.png" -->
+<!-- .slide: data-background="./images/title.png" -->
 
 <!-- Presenter: Matt -->
 # ArcGIS API 4.0 for JavaScript: Patterns and Best Practices
@@ -9,6 +9,7 @@
 
 ---
 
+<!-- .slide: data-background="./images/section.png" -->
 ![Welcome](./images/welcome.gif)
 
 ### Matt Driscoll – [@driskull](https://twitter.com/driskull)
@@ -38,6 +39,7 @@
 ---
 
 <!-- Presenter: Rene -->
+<!-- .slide: data-background="./images/section.png" -->
 # Custom Apps
 
 ---
@@ -184,7 +186,11 @@ self.addEventListener("install", function(e) {
 
 ### Review an app
 
-- TBD link coming
+<!-- Update app to remove OAuth
+
+<iframe height='600' scrolling='no' title='ArcGIS JS API - Demo Appp' src='https://esridemo-5fda1.firebaseapp.com/' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 337px;'>
+</iframe>
+-->
 
 ---
 
@@ -197,6 +203,7 @@ self.addEventListener("install", function(e) {
 - [4x FAQ](https://developers.arcgis.com/javascript/latest/guide/faq/index.html)
 
 ---
+
 # JSAPI Resources
 - TypeScript definition files
 - Bower
@@ -227,6 +234,17 @@ self.addEventListener("install", function(e) {
 
 ---
 
+# Related Sessions
+
+- [ArcGIS API for JavaScript: What’s New](https://userconference2017.schedule.esri.com/schedule/1342175613)
+- [Getting Started with ArcGIS API for JavaScript](https://userconference2017.schedule.esri.com/schedule/1303988006)
+- [Building 3D GIS Applications with JavaScript](https://userconference2017.schedule.esri.com/schedule/216191407)
+- [Optimizing Your JavaScript App for Performance](https://userconference2017.schedule.esri.com/schedule/187809795)
+- [ArcGIS API for JavaScript: Customizing Widgets](https://userconference2017.schedule.esri.com/schedule/245657592)
+- [Strategies for Building Mobile Apps Using ArcGIS API for JavaScript](https://userconference2017.schedule.esri.com/schedule/400241268)
+
+---
+
 # Please take our survey
 
 ## Your feedback allows us to help maintain high standards and to help presenters
@@ -245,4 +263,4 @@ self.addEventListener("install", function(e) {
 
 ---
 
-<!-- .slide: data-background="./reveal.js/img/end.png" -->
+<!-- .slide: data-background="./images/end.png" -->
