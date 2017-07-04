@@ -3,8 +3,6 @@
 <!-- Presenter: Matt -->
 # ArcGIS API 4.0 for JavaScript: Patterns and Best Practices
 
-![qr](./images/qr.jpg)
-
 ## Short URL: bit.ly/4xpatterns
 
 ---
@@ -34,13 +32,36 @@
 ---
 
 <!-- Presenter: Matt -->
-# Templates
+# Configurable apps
+
+- calcite maps
+- 3x/4x AGOL apps
+
+---
+
+## Customizing configurable apps
+
+---
+
+## Creating your own configurable app
+
+- boilerplates
+  - portal ready
 
 ---
 
 <!-- Presenter: Rene -->
 <!-- .slide: data-background="./images/section.png" -->
 # Custom Apps
+
+---
+
+# View UI
+
+- size classes
+- view padding
+- view components
+- breakpoints
 
 ---
 

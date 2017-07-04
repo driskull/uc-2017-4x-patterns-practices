@@ -1,8 +1,15 @@
-# Outline (65 Minutes + 10 for questions)
 
+# Patterns and Best Practices for Building Apps with the ArcGIS API 4.X for JavaScript
 
+The ArcGIS JavaScript API 4.x is our next-generation web technology for building 2D and 3D interactive, compelling web applications. In this session we’ll show you the widgets and features of the API that you can use to build a variety of applications, from the most basic to applications that scale! You'll learn how to create apps from boilerplates, how to modify existing apps, how to create apps using view components, how to make responsive apps, and time saving tips to be aware of
 
-# Goals
+## Outline (65 Minutes + 10 for questions)
+
+- 4x Goals
+- 4x Tips & Best Practices
+- Resources
+
+## Goals
 - Es6 stuff
 - fresh stuff
 - modify a template
