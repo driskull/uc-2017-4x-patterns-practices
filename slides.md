@@ -8,7 +8,6 @@
 ---
 
 <!-- .slide: data-background="./images/section.png" -->
-![Welcome](./images/welcome.gif)
 
 ### Matt Driscoll – [@driskull](https://twitter.com/driskull)
 ### René Rubalcava – [@odoenet](https://twitter.com/odoenet)
@@ -251,8 +250,6 @@ self.addEventListener("install", function(e) {
 
 ## [bit.ly/4xpatterns](http://bit.ly/4xpatterns)
 
-![code](./images/code.gif)
-
 ---
 
 # Related Sessions
@@ -266,11 +263,7 @@ self.addEventListener("install", function(e) {
 
 ---
 
-# Please take our survey
-
-## Your feedback allows us to help maintain high standards and to help presenters
-
-![Rate us](./images/rate-us.png)
+<!-- .slide: data-background="./images/survey-background.png" -->
 
 ---
 
@@ -280,7 +273,7 @@ self.addEventListener("install", function(e) {
 
 ---
 
-![Thanks](./images/thanks.gif)
+# Thank you!
 
 ---
 
