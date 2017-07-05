@@ -5,9 +5,32 @@ The ArcGIS JavaScript API 4.x is our next-generation web technology for building
 
 ## Outline (65 Minutes + 10 for questions)
 
-- 4x Goals
-- 4x Tips & Best Practices
-- Resources
+- 4x: What you get (matt)
+  - es6
+  - browser support
+  -
+- Options available (matt)
+  - resources
+  - time
+  - some kind of graph
+  - native apps?
+  - dashboard stuff?
+- Widgets (rene)
+ - out of box widgets
+- Reponsiveness of views (matt)
+  - View UI
+  - view padding
+  - view sizes
+  - expand
+  - Popup docking
+- Templates (matt)
+  - modifying
+- Calcite maps (matt)
+- Scaffodling app (rene)
+- WebAppBuilder (rene)
+- Boilerplate (matt)
+- Gotchas (rene)
+- Resources (rene)
 
 ## Goals
 - Es6 stuff
