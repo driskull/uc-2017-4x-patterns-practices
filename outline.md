@@ -15,6 +15,8 @@ The ArcGIS JavaScript API 4.x is our next-generation web technology for building
   - some kind of graph
   - native apps?
   - dashboard stuff?
+  - Frameworks
+  - phonegap?
 - Widgets (rene)
  - out of box widgets
 - Reponsiveness of views (matt)
