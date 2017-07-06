@@ -16,13 +16,27 @@
 
 # Agenda
 
-- 4x Goals
-- 4x Tips & Best Practices
+- 4x: What do I get?
+- 4x  What are my options?
+- Working with Widgets
+- Getting responsive
+- Using Existing Apps + Tools
+- Gotchas
 - Resources
 
 ---
 
-# Prerequisite
+<!-- Presenter: Rene -->
+<!-- .slide: data-background="./images/section.png" -->
+# What do I get with the 4x JSAPI?
+
+TODO
+
+---
+
+<!-- .slide: data-background="./images/section.png" -->
+# What are my options?
+
 - Needs?
 - Resources?
 - Time?
@@ -31,36 +45,39 @@
 ---
 
 <!-- Presenter: Matt -->
-# Configurable apps
-
-- calcite maps
-- 3x/4x AGOL apps
+<!-- .slide: data-background="./images/section.png" -->
+# Working with Widgets
 
 ---
 
-## Customizing configurable apps
+<!-- .slide: data-background="./images/section.png" -->
+# Getting Responsive with Views
 
 ---
 
-## Creating your own configurable app
+<!-- .slide: data-background="./images/section.png" -->
+# Apps
 
-- boilerplates
-  - portal ready
+---
+
+# Apps: Configurable AGOL
+
+---
+
+# Apps: Boilerplate
+
+---
+
+# Apps: Calcite Maps
 
 ---
 
 <!-- Presenter: Rene -->
-<!-- .slide: data-background="./images/section.png" -->
-# Custom Apps
+# Apps: WebappBuilder
 
 ---
 
-# View UI
-
-- size classes
-- view padding
-- view components
-- breakpoints
+# Apps: Scaffolding app
 
 ---
 
@@ -214,7 +231,13 @@ self.addEventListener("install", function(e) {
 
 ---
 
+<!-- .slide: data-background="./images/section.png" -->
+# Gotchas
+
+---
+
 <!-- Presenter: Rene + Matt -->
+<!-- .slide: data-background="./images/section.png" -->
 # Additional Resources
 
 <!-- - Geonet/support/rene/github/sass (Rene) -->
@@ -278,3 +301,6 @@ self.addEventListener("install", function(e) {
 ---
 
 <!-- .slide: data-background="./images/end.png" -->
+
+
+
