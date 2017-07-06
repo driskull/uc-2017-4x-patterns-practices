@@ -30,7 +30,9 @@
 <!-- .slide: data-background="./images/section.png" -->
 # What do I get with the 4x JSAPI?
 
-TODO
+- Simplified and consistent API
+- Write apps in ES6 or TypeScript
+- Modern browser support (IE11+)
 
 ---
 
@@ -41,6 +43,43 @@ TODO
 - Resources?
 - Time?
 - Customizations?
+
+---
+
+## What do you need?
+
+- Charts and operational monitoring
+  - Dashboard, Insights (data exploration)
+- Mobile and offline
+  - Native app
+
+---
+
+## What can you get with the JavaScript API?
+
+- Suite of templates and configurable apps
+- Out-of-the-box widgets
+- Integration with various frameworks
+
+---
+
+![chart](./images/needs-chart1.jpg)
+
+---
+
+![chart](./images/needs-chart2.jpg)
+
+---
+
+![chart](./images/needs-chart3.jpg)
+
+---
+
+![chart](./images/needs-chart4.jpg)
+
+---
+
+![chart](./images/needs-chart5.jpg)
 
 ---
 
