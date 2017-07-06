@@ -1,0 +1,1 @@
+Demo how view sizes can be used for responsive design via CSS or JS

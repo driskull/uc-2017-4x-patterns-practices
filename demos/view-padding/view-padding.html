@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+
+  <style>
+    html,
+    body {
+      padding: 0;
+      margin: 0;
+      width: 100%;
+      height: 100%;
+    }
+    
+    #viewDiv {
+      width: 100%;
+      height: 100%;
+    }
+    
+    #position {
+      position: absolute;
+      z-index: 999;
+      top: 20px;
+      left: 50%;
+    }
+  </style>
+
+  <link rel="stylesheet" href="https://js.arcgis.com/4.4/esri/css/main.css">
+  <script src="https://js.arcgis.com/4.4"></script>
+
+  <script>
+    var view, popup;
+    require([
+      "esri/Map",
+      "esri/views/MapView",
+      "dojo/query",
+      "dojo/domReady!"
+    ], function (
+      Map,
+      MapView,
+      query) {
+
+      var map = new Map({
+        basemap: "hybrid"
+      });
+
+      view = new MapView({
+        container: "viewDiv",
+        map: map,
+        center: [-97, 38],
+        padding: {left: 300},
+        zoom: 6
+      });
+
+      popup = view.popup;
+
+      view.then(function () {
+
+        view.popup.set("dockEnabled", true);
+
+        view.popup.set("dockOptions", {
+          breakpoint: false
+        });
+
+        view.popup.open({
+          title: "foobar",
+          location: view.center.clone(),
+          content: "Value: " + view.popup.currentDockPosition
+        });
+
+        view.popup.watch("currentDockPosition", function (value) {
+          view.popup.open();
+        });
+
+
+        query("#position").on("change", function (e) {
+
+          view.popup.set("dockOptions", {
+            breakpoint: false,
+            position: e.target.value
+          });
+
+        })
+
+      });
+
+    });
+  </script>
+</head>
+
+<body>
+  <div id="viewDiv"></div>
+  <select id="position">
+    <option selected value="auto">auto</option>
+    <option value="top-left">top-left</option>
+    <option value="top-center">top-center</option>
+    <option value="top-right">top-right</option>
+    <option value="bottom-left">bottom-left</option>
+    <option value="bottom-center">bottom-center</option>
+    <option value="bottom-right">bottom-right</option>
+  </select>
+</body>
+
+</html>

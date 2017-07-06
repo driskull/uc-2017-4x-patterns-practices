@@ -66,6 +66,8 @@ TODO
 
 # Apps: Boilerplate
 
+http://doc.arcgis.com/en/arcgis-online/create-maps/create-app-templates.htm
+
 ---
 
 # Apps: Calcite Maps

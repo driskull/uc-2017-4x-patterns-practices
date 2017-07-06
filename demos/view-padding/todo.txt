@@ -1,0 +1,1 @@
+Demo how view padding can be used for apps
