@@ -1,0 +1,9 @@
+{
+  "name": "uc-2017-4x-patterns-practices",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "highlightjs": "^9.10.0",
+    "reveal.js": "^3.5.0"
+  }
+}
