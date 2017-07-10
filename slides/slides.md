@@ -112,7 +112,37 @@
 ---
 
 <!-- Presenter: Rene -->
-# Apps: WebappBuilder
+# Apps: Web AppBuilder
+
+- Two Options
+  - Online
+  - Developer Edition
+
+---
+
+## Web AppBuilder - Online
+
+- Easy to set up
+- Hosted on ArcGIS.com
+- Share settings
+- Custom widgets in Portal
+  - [blog post](https://blogs.esri.com/esri/arcgis/2017/06/30/web-appbuilder-for-arcgis-now-supports-custom-widgets-in-arcgis-enterprise-10-5-1/)
+
+---
+
+## Web AppBuilder - Developer Edition
+
+- Deploy on your own site
+- Use custom widgets
+- [Download the SDK](https://developers.arcgis.com/web-appbuilder/)
+
+---
+
+## Web AppBuilder - Developer Edition
+
+- Custom Widgets
+  - [Solutions Widgets](https://github.com/Esri/solutions-webappbuilder-widgets)
+  - [Widget Generator](https://github.com/Esri/generator-esri-appbuilder-js)
 
 ---
 
@@ -262,11 +292,8 @@ self.addEventListener("install", function(e) {
 
 ### Review an app
 
-<!-- Update app to remove OAuth
-
 <iframe height='600' scrolling='no' title='ArcGIS JS API - Demo Appp' src='https://esridemo-5fda1.firebaseapp.com/' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 337px;'>
 </iframe>
--->
 
 ---
 
@@ -280,7 +307,7 @@ self.addEventListener("install", function(e) {
 # Additional Resources
 
 <!-- - Geonet/support/rene/github/sass (Rene) -->
-- [Documentation - 4.0 beta](https://developers.arcgis.com/javascript/beta/)
+- [Documentation](https://developers.arcgis.com/javascript/latest)
 - [4x What's new](https://developers.arcgis.com/javascript/latest/guide/whats-new/index.html)
 - [4x FAQ](https://developers.arcgis.com/javascript/latest/guide/faq/index.html)
 
