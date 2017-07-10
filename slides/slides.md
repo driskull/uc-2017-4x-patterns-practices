@@ -30,7 +30,9 @@
 <!-- .slide: data-background="./images/section.png" -->
 # What do I get with the 4x JSAPI?
 
-TODO
+- Simplified and consistent API
+- Write apps in ES6 or TypeScript
+- Modern browser support (IE11+)
 
 ---
 
@@ -41,6 +43,43 @@ TODO
 - Resources?
 - Time?
 - Customizations?
+
+---
+
+## What do you need?
+
+- Charts and operational monitoring
+  - Dashboard, Insights (data exploration)
+- Mobile and offline
+  - Native app
+
+---
+
+## What can you get with the JavaScript API?
+
+- Suite of templates and configurable apps
+- Out-of-the-box widgets
+- Integration with various frameworks
+
+---
+
+![chart](./images/needs-chart1.jpg)
+
+---
+
+![chart](./images/needs-chart2.jpg)
+
+---
+
+![chart](./images/needs-chart3.jpg)
+
+---
+
+![chart](./images/needs-chart4.jpg)
+
+---
+
+![chart](./images/needs-chart5.jpg)
 
 ---
 
@@ -75,7 +114,37 @@ http://doc.arcgis.com/en/arcgis-online/create-maps/create-app-templates.htm
 ---
 
 <!-- Presenter: Rene -->
-# Apps: WebappBuilder
+# Apps: Web AppBuilder
+
+- Two Options
+  - Online
+  - Developer Edition
+
+---
+
+## Web AppBuilder - Online
+
+- Easy to set up
+- Hosted on ArcGIS.com
+- Share settings
+- Custom widgets in Portal
+  - [blog post](https://blogs.esri.com/esri/arcgis/2017/06/30/web-appbuilder-for-arcgis-now-supports-custom-widgets-in-arcgis-enterprise-10-5-1/)
+
+---
+
+## Web AppBuilder - Developer Edition
+
+- Deploy on your own site
+- Use custom widgets
+- [Download the SDK](https://developers.arcgis.com/web-appbuilder/)
+
+---
+
+## Web AppBuilder - Developer Edition
+
+- Custom Widgets
+  - [Solutions Widgets](https://github.com/Esri/solutions-webappbuilder-widgets)
+  - [Widget Generator](https://github.com/Esri/generator-esri-appbuilder-js)
 
 ---
 
@@ -225,11 +294,8 @@ self.addEventListener("install", function(e) {
 
 ### Review an app
 
-<!-- Update app to remove OAuth
-
 <iframe height='600' scrolling='no' title='ArcGIS JS API - Demo Appp' src='https://esridemo-5fda1.firebaseapp.com/' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 337px;'>
 </iframe>
--->
 
 ---
 
@@ -243,7 +309,7 @@ self.addEventListener("install", function(e) {
 # Additional Resources
 
 <!-- - Geonet/support/rene/github/sass (Rene) -->
-- [Documentation - 4.0 beta](https://developers.arcgis.com/javascript/beta/)
+- [Documentation](https://developers.arcgis.com/javascript/latest)
 - [4x What's new](https://developers.arcgis.com/javascript/latest/guide/whats-new/index.html)
 - [4x FAQ](https://developers.arcgis.com/javascript/latest/guide/faq/index.html)
 
