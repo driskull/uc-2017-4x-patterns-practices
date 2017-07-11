@@ -85,7 +85,12 @@
 
 <!-- Presenter: Matt -->
 <!-- .slide: data-background="./images/section.png" -->
-# Working with Widgets
+# Lets talk about Widgets!
+
+- ~19 Widgets out of the box
+- Some added by default to view
+- Some SceneView/MapView only
+- More added each release
 
 ---
 
