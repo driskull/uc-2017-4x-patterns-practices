@@ -44,10 +44,12 @@
     require([
       "esri/WebMap",
       "esri/views/MapView",
+      "esri/core/watchUtils",
       "dojo/domReady!"
     ], function (
       WebMap,
-      MapView
+      MapView,
+      watchUtils
     ) {
 
         var webmap = new WebMap({
