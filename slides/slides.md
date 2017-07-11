@@ -94,6 +94,13 @@
 
 ---
 
+# Widgets: Default components
+
+[Components](https://developers.arcgis.com/javascript/latest/api-reference/esri-views-ui-DefaultUI.html#components)
+  - Plus Popup
+
+---
+
 <!-- .slide: data-background="./images/section.png" -->
 # Getting Responsive with Views
 
@@ -106,15 +113,27 @@
 
 # Apps: Configurable AGOL
 
+[Product Info](http://www.esri.com/software/configurable-apps)
+[Choose an app](http://doc.arcgis.com/en/arcgis-online/create-maps/choose-configurable-app.htm)
+
 ---
 
-# Apps: Boilerplate
+# Apps: Boilerplates & Examples
 
-http://doc.arcgis.com/en/arcgis-online/create-maps/create-app-templates.htm
-
+- 3x
+  - [Creating App Templates](http://doc.arcgis.com/en/arcgis-online/create-maps/create-app-templates.htm)
+  - [Application Boilerplate](https://github.com/Esri/application-boilerplate-3x-js)
+- 4x
+  - [Application Base](https://github.com/Esri/application-base-js)
+  - [Configurable App Examples](https://github.com/Esri/configurable-app-examples-4x-js)
 ---
 
 # Apps: Calcite Maps
+
+Bootstrap theme made with ArcGIS Maps in mind
+
+- [Calcite Maps GitHub](https://github.com/Esri/calcite-maps)
+- [Live Examples](https://esri.github.io/calcite-maps/samples/index.html)
 
 ---
 
