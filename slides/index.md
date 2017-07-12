@@ -20,7 +20,7 @@
 - 4x: What do I get?
 - 4x  What are my options?
 - Working with Widgets
-- Getting responsive
+- Getting responsive with Views
 - Using Existing Apps + Tools
 - Gotchas
 - Resources
@@ -86,12 +86,13 @@
 
 <!-- Presenter: Matt -->
 <!-- .slide: data-background="./images/section.png" -->
-# Lets talk about Widgets!
+# Widgets!
 
 - ~19 Widgets out of the box
-- Widgets help make great apps!
+- Widgets help make great apps
 - Less code for you to write
 - Designed with responsive apps in mind
+- We'll look at a few key widgets for your app
 
 ---
 
@@ -133,7 +134,22 @@
 - Collapsable button/panel
 - Can be used with widgets, dom node, HTML
 - Designed for view component use
-- [Expand Sample](https://developers.arcgis.com/javascript/latest/sample-code/widgets-expand/index.html)
+
+---
+
+# Widgets: Expand Sample
+
+- [Expand Sample](https://developers.arcgis.com/javascript/latest/sample-code/sandbox/index.html?sample=widgets-expand)
+
+```
+"<div style='background:red'>Hello World</div>"
+```
+
+```
+var node = document.createElement("div");
+node.innerHTML = "Hello World 2";
+node.style.backgroundColor = "blue";
+```
 
 ---
 
@@ -146,8 +162,8 @@ Useful [view properties](https://developers.arcgis.com/javascript/latest/api-ref
 - heightBreakpoint
 - widthBreakpoint
 - orientation
-- padding
 - size
+- padding
 - ui
 
 ---
@@ -164,6 +180,9 @@ Useful [view properties](https://developers.arcgis.com/javascript/latest/api-ref
 
 # View UI: Components
 
+- Provide easy way to add/position widgets on a view
+- [SDK](https://developers.arcgis.com/javascript/latest/api-reference/esri-views-ui-DefaultUI.html#components)
+
 ---
 
 <!-- .slide: data-background="images/demo-background.png" -->
@@ -174,7 +193,11 @@ Useful [view properties](https://developers.arcgis.com/javascript/latest/api-ref
 
 ---
 
-# View UI: Padding
+# View: Padding
+
+- View will work off a subsection of the full view
+- Useful when UI covers portion of the view
+- [SDK](https://developers.arcgis.com/javascript/latest/api-reference/esri-views-MapView.html#padding)
 
 ---
 
@@ -185,7 +208,42 @@ Useful [view properties](https://developers.arcgis.com/javascript/latest/api-ref
 
 ---
 
-# View UI: Sizes
+# View: Sizing
+
+Useful view sizing properties
+
+- height
+- width
+- heightBreakpoint
+- widthBreakpoint
+- orientation
+- size
+
+---
+
+# View: Breakpoints
+
+- [Breakpoints SDK](https://developers.arcgis.com/javascript/latest/api-reference/esri-views-MapView.html#breakpoints)
+
+---
+
+# View UI: CSS
+
+- Breakpoints also add classes on view
+
+```css
+.esri-view esri-view-height-xsmall,
+.esri-view-height-less-than-small,
+.esri-view-height-less-than-medium,
+.esri-view-height-less-than-large,
+.esri-view-height-less-than-xlarge,
+.esri-view-width-xlarge,
+.esri-view-width-greater-than-xsmall,
+.esri-view-width-greater-than-small,
+.esri-view-width-greater-than-medium,
+.esri-view-width-greater-than-large,
+.esri-view-orientation-landscape {}
+```
 
 ---
 
@@ -196,14 +254,13 @@ Useful [view properties](https://developers.arcgis.com/javascript/latest/api-ref
 
 ---
 
-# View UI: Getting Responsive
-
----
-
 <!-- .slide: data-background="./images/section.png" -->
 # Apps
 
-todo: using existing apps info
+- Lots of existing apps
+- Use as starting point
+- Customize
+- Code on [Esri Github](https://github.com/esri)
 
 ---
 
@@ -423,6 +480,12 @@ self.addEventListener("install", function(e) {
 
 <!-- .slide: data-background="./images/section.png" -->
 # Gotchas
+
+---
+
+# Lets Recap
+
+todo
 
 ---
 
