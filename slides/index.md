@@ -89,11 +89,11 @@
 <!-- .slide: data-background="./images/section-background.png" -->
 # Widgets!
 
-- ~19 Widgets out of the box <!-- .element: class="fragment" data-fragment-index="1" -->
+- ~20 Widgets out of the box <!-- .element: class="fragment" data-fragment-index="1" -->
 - Widgets help make great apps <!-- .element: class="fragment" data-fragment-index="1" -->
 - Less code for you to write <!-- .element: class="fragment" data-fragment-index="1" -->
 - Designed with responsive apps in mind <!-- .element: class="fragment" data-fragment-index="1" -->
-- We'll look at a few key widgets for your app <!-- .element: class="fragment" data-fragment-index="1" -->
+- We'll look at a few key widgets <!-- .element: class="fragment" data-fragment-index="1" -->
 
 ---
 
@@ -120,6 +120,7 @@
 - Responsive Design
 - Size changes depending on size of view
 - Can be docked to top, bottom, center and sides
+- [Popup Sample](https://developers.arcgis.com/javascript/latest/sample-code/sandbox/index.html?sample=popup-actions)
 
 ---
 
