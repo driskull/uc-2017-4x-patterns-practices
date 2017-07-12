@@ -483,13 +483,23 @@ self.addEventListener("install", function(e) {
 
 ---
 
+<!-- Presenter: Rene + Matt -->
 # Lets Recap
 
-todo
+- What you get in 4x
+- Options for creating apps
+- Widgets you can use
+- View properties, components, responsiveness
+- Existing apps available to customize
+  - Configurable
+  - Boilerplates
+  - Calcite Maps
+  - WebAppBuilder
+  - etc
+- Additional Resources
 
 ---
 
-<!-- Presenter: Rene + Matt -->
 <!-- .slide: data-background="./images/section.png" -->
 # Additional Resources
 
@@ -518,7 +528,6 @@ todo
 # Blogs
 - [ArcGIS Blog](https://blogs.esri.com/esri/arcgis/tag/javascript/)
 - [odoe.net](http://odoe.net/blog/)
-
 
 ---
 
@@ -554,6 +563,3 @@ todo
 ---
 
 <!-- .slide: data-background="images/end-background.png" -->
-
-
-
