@@ -132,13 +132,32 @@
 - Collapsable button/panel
 - Can be used with widgets, dom node, HTML
 - Designed for view component use
+- [Expand Sample](https://developers.arcgis.com/javascript/latest/sample-code/widgets-expand/index.html)
+
+---
+
+# View
+
+Useful [view properties](https://developers.arcgis.com/javascript/latest/api-reference/esri-views-View.html#properties-summary) for building apps
+
+- height
+- width
+- heightBreakpoint
+- widthBreakpoint
+- orientation
+- padding
+- size
+- ui
 
 ---
 
 <!-- .slide: data-background="./images/section.png" -->
 # View UI
 
-todo: what is it?
+- View has `ui` property
+- Can has `components` that can hold...
+  - Widget, DOM node, text, html string
+- [Default UI](https://developers.arcgis.com/javascript/latest/api-reference/esri-views-ui-DefaultUI.html)
 
 ---
 
@@ -146,7 +165,34 @@ todo: what is it?
 
 ---
 
+<!-- .slide: data-background="./images/section.png" -->
+# Demo
+
+[Components Demo](../demos/view-ui/view-ui-expand.html)
+[Components Demo](../demos/view-ui/view-ui-positions.html)
+
+---
+
 # View UI: Padding
+
+---
+
+
+<!-- .slide: data-background="./images/section.png" -->
+# Demo
+
+[View Padding Demo](../demos/view-padding/panel-view-padding.html)
+
+---
+
+# View UI: Sizes
+
+---
+
+<!-- .slide: data-background="./images/section.png" -->
+# Demo
+
+[View UI Sizes](../demos/view-sizes/panel-dynamic.html)
 
 ---
 
