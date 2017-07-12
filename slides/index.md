@@ -8,6 +8,7 @@
 ---
 
 <!-- .slide: data-background="./images/section.png" -->
+# Presenters
 
 ### Matt Driscoll – [@driskull](https://twitter.com/driskull)
 ### René Rubalcava – [@odoenet](https://twitter.com/odoenet)
@@ -123,7 +124,7 @@
 <!-- .slide: data-background="images/demo-background.png" -->
 # Demo
 
-[Popup Demo](../demos/popup-docking/popup-docking.html)
+- [Popup Demo](../demos/popup-docking/popup-docking.html)
 
 ---
 
@@ -168,8 +169,8 @@ Useful [view properties](https://developers.arcgis.com/javascript/latest/api-ref
 <!-- .slide: data-background="images/demo-background.png" -->
 # Demo
 
-[Components Demo](../demos/view-ui/view-ui-expand.html)
-[Components Demo](../demos/view-ui/view-ui-positions.html)
+- [Components Demo](../demos/view-ui/view-ui-expand.html)
+- [UI Positions Demo](../demos/view-ui/view-ui-positions.html)
 
 ---
 
@@ -180,7 +181,7 @@ Useful [view properties](https://developers.arcgis.com/javascript/latest/api-ref
 <!-- .slide: data-background="images/demo-background.png" -->
 # Demo
 
-[View Padding Demo](../demos/view-padding/panel-view-padding.html)
+- [View Padding Demo](../demos/view-padding/panel-view-padding.html)
 
 ---
 
@@ -191,7 +192,7 @@ Useful [view properties](https://developers.arcgis.com/javascript/latest/api-ref
 <!-- .slide: data-background="images/demo-background.png" -->
 # Demo
 
-[View UI Sizes](../demos/view-sizes/panel-dynamic.html)
+- [View UI Sizes](../demos/view-sizes/panel-dynamic.html)
 
 ---
 
@@ -222,7 +223,6 @@ todo: using existing apps info
 - 4x
   - [Application Base](https://github.com/Esri/application-base-js)
   - [Configurable App Examples](https://github.com/Esri/configurable-app-examples-4x-js)
-
 
 ---
 
