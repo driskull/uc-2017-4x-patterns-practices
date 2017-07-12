@@ -99,11 +99,11 @@
 
 # Default Widgets
 
-- MapView & SceneView
+- MapView & SceneView <!-- .element: class="fragment" data-fragment-index="1" -->
   - Popup
   - Attribution
   - Zoom
-- SceneView
+- SceneView <!-- .element: class="fragment" data-fragment-index="2" -->
   - NavigationToggle
   - Compass
 
@@ -132,9 +132,9 @@
 
 # Widgets: Expand
 
-- Collapsable button/panel
-- Can be used with widgets, dom node, HTML
-- Designed for view component use
+- Collapsable button/panel <!-- .element: class="fragment" data-fragment-index="1" -->
+- Can be used with widgets, dom node, HTML <!-- .element: class="fragment" data-fragment-index="2" -->
+- Designed for view component use <!-- .element: class="fragment" data-fragment-index="3" -->
 
 ---
 
@@ -143,13 +143,19 @@
 - [Expand Sample](https://developers.arcgis.com/javascript/latest/sample-code/sandbox/index.html?sample=widgets-expand)
 
 ```
-"<div style='background:red'>Hello World</div>"
-```
+var htmlString = "<div style='background:red'>Hello World</div>";
 
-```
 var node = document.createElement("div");
 node.innerHTML = "Hello World 2";
 node.style.backgroundColor = "blue";
+
+var bgExpand = new Expand({
+  view: view,
+  //content: htmlString,
+  //content: node,
+  content: basemapGallery,
+  expandIconClass: "esri-icon-basemap"
+});
 ```
 
 ---
@@ -492,17 +498,17 @@ self.addEventListener("install", function(e) {
 <!-- Presenter: Rene + Matt -->
 # Lets Recap
 
-- What you get in 4x
-- Options for creating apps
-- Widgets you can use
-- View properties, components, responsiveness
-- Existing apps available to customize
+- What you get in 4x <!-- .element: class="fragment" data-fragment-index="1" -->
+- Options for creating apps <!-- .element: class="fragment" data-fragment-index="2" -->
+- Widgets you can use <!-- .element: class="fragment" data-fragment-index="3" -->
+- View properties, components, responsiveness <!-- .element: class="fragment" data-fragment-index="4" -->
+- Existing apps available to customize <!-- .element: class="fragment" data-fragment-index="5" -->
   - Configurable
   - Boilerplates
   - Calcite Maps
   - WebAppBuilder
   - etc
-- Additional Resources
+- Additional Resources <!-- .element: class="fragment" data-fragment-index="6" -->
 
 ---
 
