@@ -22,7 +22,6 @@
 - Working with Widgets
 - Getting responsive with Views
 - Using Existing Apps + Tools
-- Gotchas
 - Resources
 
 ---
@@ -488,11 +487,6 @@ self.addEventListener("install", function(e) {
 
 <iframe height='600' scrolling='no' title='ArcGIS JS API - Demo Appp' src='https://esridemo-5fda1.firebaseapp.com/' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 337px;'>
 </iframe>
-
----
-
-<!-- .slide: data-background="./images/section-background.png" -->
-# Gotchas
 
 ---
 
