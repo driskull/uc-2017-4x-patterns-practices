@@ -503,7 +503,6 @@ self.addEventListener("install", function(e) {
   - Calcite Maps
   - WebAppBuilder
   - etc
-- Additional Resources <!-- .element: class="fragment" data-fragment-index="6" -->
 
 ---
 
