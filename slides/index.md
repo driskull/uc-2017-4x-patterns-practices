@@ -526,7 +526,7 @@ self.addEventListener("install", function(e) {
 ---
 
 # Geonet
-[![Geonet](./images/geonet.png)](https://geonet.esri.com/community/developers/web-developers/arcgis-api-for-javascript/tags#/?recursive=false&tags=4.0)
+[![Geonet](./images/geonet.png)](https://geonet.esri.com/community/developers/web-developers/arcgis-api-for-javascript)
 
 
 ---
