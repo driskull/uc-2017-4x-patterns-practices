@@ -94,20 +94,51 @@
 
 ---
 
-# Widgets: Default components
+# Widgets: Let's see
+
+---
+
+# Widgets: Expand
+
+---
+
+# Widgets: Default
 
 [Components](https://developers.arcgis.com/javascript/latest/api-reference/esri-views-ui-DefaultUI.html#components)
   - Plus Popup
 
 ---
 
+# Widgets: Popup
+
+- Popup Docking
+
+---
+
 <!-- .slide: data-background="./images/section.png" -->
-# Getting Responsive with Views
+# View UI
+
+todo: what is it?
+
+---
+
+# View UI: Components
+
+---
+
+# View UI: Padding
+
+---
+
+# View UI: Getting Responsive
+
 
 ---
 
 <!-- .slide: data-background="./images/section.png" -->
 # Apps
+
+todo: using existing apps info
 
 ---
 
