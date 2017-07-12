@@ -119,7 +119,6 @@
 - Responsive Design
 - Size changes depending on size of view
 - Can be docked to top, bottom, center and sides
-- [Popup Sample](https://developers.arcgis.com/javascript/latest/sample-code/sandbox/index.html?sample=popup-actions)
 
 ---
 
@@ -143,17 +142,18 @@
 - [Expand Sample](https://developers.arcgis.com/javascript/latest/sample-code/sandbox/index.html?sample=widgets-expand)
 
 ```
-var htmlString = "<div style='background:red'>Hello World</div>";
+var htmlString = "<div style='background:red; color: white;'>Hello World</div>";
 
 var node = document.createElement("div");
-node.innerHTML = "Hello World 2";
+node.innerHTML = "Hello World";
 node.style.backgroundColor = "blue";
+node.style.color = "white";
 
 var bgExpand = new Expand({
   view: view,
   //content: htmlString,
   //content: node,
-  content: basemapGallery,
+  //content: basemapGallery,
   expandIconClass: "esri-icon-basemap"
 });
 ```
@@ -172,13 +172,14 @@ Useful [view properties](https://developers.arcgis.com/javascript/latest/api-ref
 - size
 - padding
 - ui
+  - components
 
 ---
 
 <!-- .slide: data-background="./images/section-background.png" -->
 # View UI
 
-- View has `ui` property
+- View has `ui` property => class for user interface
 - Can has `components` that can hold...
   - Widget, DOM node, text, html string
 - [Default UI](https://developers.arcgis.com/javascript/latest/api-reference/esri-views-ui-DefaultUI.html)
@@ -189,6 +190,12 @@ Useful [view properties](https://developers.arcgis.com/javascript/latest/api-ref
 
 - Provide easy way to add/position widgets on a view
 - [SDK](https://developers.arcgis.com/javascript/latest/api-reference/esri-views-ui-DefaultUI.html#components)
+
+```
+var myWidget = new MyWidget();
+
+view.ui.add(myWidget, "top-right");
+```
 
 ---
 
@@ -217,7 +224,7 @@ Useful [view properties](https://developers.arcgis.com/javascript/latest/api-ref
 
 # View: Sizing
 
-Useful view sizing properties
+Useful view sizing properties for responsive apps
 
 - height
 - width
@@ -273,9 +280,8 @@ Useful view sizing properties
 
 # Apps: Configurable AGOL
 
-- [Product Info](http://www.esri.com/software/configurable-apps)
-- [Choose an app](http://doc.arcgis.com/en/arcgis-online/create-maps/choose-configurable-app.htm)
 - [Configurable Apps Gallery](https://www.arcgis.com/home/gallery.html#c=esri&t=apps&o=modified&f=configurable)
+- [Choose an app](http://doc.arcgis.com/en/arcgis-online/create-maps/choose-configurable-app.htm)
 
 ---
 
