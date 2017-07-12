@@ -508,7 +508,7 @@ self.addEventListener("install", function(e) {
   - Boilerplates
   - Calcite Maps
   - WebAppBuilder
-  - etc
+- App tools, building good apps <!-- .element: class="fragment" data-fragment-index="6" -->
 
 ---
 
