@@ -1,10 +1,9 @@
-# ArcGIS API 4.0 for JavaScript: Patterns and Best Practices
+# Patterns and Best Practices for Building Apps with the ArcGIS API 4.X for JavaScript
 
-The ArcGIS API 4.0 for JavaScript is our next-generation web technology for building interactive, compelling web applications that run across any device. There are significant changes to the object model and programming patterns to enable a cleaner, more productive developer experience. Come to this session if you plan to migrate a JS app to the new API, or plan to write one from scratch. You will learn about key aspects of the new API design, and best practices for developing with the API.
+The ArcGIS JavaScript API 4.x is our next-generation web technology for building 2D and 3D interactive, compelling web applications. In this session we’ll show you the widgets and features of the API that you can use to build a variety of applications, from the most basic to applications that scale! You'll learn how to create apps from boilerplates, how to modify existing apps, how to create apps using view components, how to make responsive apps, and time saving tips to be aware of.
 
-
-**Short URL: [bit.ly/4xpatterns](http://bit.ly/4xpatterns)**
+**Short URL: [esriurl.com/4xpatterns2017](http://esriurl.com/4xpatterns2017)**
 
 ## Slides
 
-[View presentation](http://driskull.github.io/uc-2017-4x-patterns-practices/)
+[View presentation](http://driskull.github.io/uc-2017-4x-patterns-practices/slides/)
