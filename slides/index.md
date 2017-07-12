@@ -7,7 +7,7 @@
 
 ---
 
-<!-- .slide: data-background="./images/section.png" -->
+<!-- .slide: data-background="./images/section-background.png" -->
 # Presenters
 
 ### Matt Driscoll – [@driskull](https://twitter.com/driskull)
@@ -28,16 +28,17 @@
 ---
 
 <!-- Presenter: Rene -->
-<!-- .slide: data-background="./images/section.png" -->
+<!-- .slide: data-background="./images/section-background.png" -->
+
 # What do I get with the 4x JSAPI?
 
-- Simplified and consistent API
-- Write apps in ES6 or TypeScript
-- Modern browser support (IE11+)
+- Simplified and consistent API <!-- .element: class="fragment" data-fragment-index="1" -->
+- Write apps in ES6 or TypeScript <!-- .element: class="fragment" data-fragment-index="1" -->
+- Modern browser support (IE11+) <!-- .element: class="fragment" data-fragment-index="1" -->
 
 ---
 
-<!-- .slide: data-background="./images/section.png" -->
+<!-- .slide: data-background="./images/section-background.png" -->
 # What are my options?
 
 - Needs?
@@ -85,14 +86,14 @@
 ---
 
 <!-- Presenter: Matt -->
-<!-- .slide: data-background="./images/section.png" -->
+<!-- .slide: data-background="./images/section-background.png" -->
 # Widgets!
 
-- ~19 Widgets out of the box
-- Widgets help make great apps
-- Less code for you to write
-- Designed with responsive apps in mind
-- We'll look at a few key widgets for your app
+- ~19 Widgets out of the box <!-- .element: class="fragment" data-fragment-index="1" -->
+- Widgets help make great apps <!-- .element: class="fragment" data-fragment-index="1" -->
+- Less code for you to write <!-- .element: class="fragment" data-fragment-index="1" -->
+- Designed with responsive apps in mind <!-- .element: class="fragment" data-fragment-index="1" -->
+- We'll look at a few key widgets for your app <!-- .element: class="fragment" data-fragment-index="1" -->
 
 ---
 
@@ -168,7 +169,7 @@ Useful [view properties](https://developers.arcgis.com/javascript/latest/api-ref
 
 ---
 
-<!-- .slide: data-background="./images/section.png" -->
+<!-- .slide: data-background="./images/section-background.png" -->
 # View UI
 
 - View has `ui` property
@@ -254,7 +255,7 @@ Useful view sizing properties
 
 ---
 
-<!-- .slide: data-background="./images/section.png" -->
+<!-- .slide: data-background="./images/section-background.png" -->
 # Apps
 
 - Lots of existing apps
@@ -289,6 +290,11 @@ Bootstrap theme made with ArcGIS Maps in mind
 
 - [Calcite Maps GitHub](https://github.com/Esri/calcite-maps)
 - [Live Examples](https://esri.github.io/calcite-maps/samples/index.html)
+
+---
+
+<!-- .slide: data-background="./images/section-background.png" -->
+# Web AppBuilder
 
 ---
 
@@ -478,7 +484,7 @@ self.addEventListener("install", function(e) {
 
 ---
 
-<!-- .slide: data-background="./images/section.png" -->
+<!-- .slide: data-background="./images/section-background.png" -->
 # Gotchas
 
 ---
@@ -500,7 +506,7 @@ self.addEventListener("install", function(e) {
 
 ---
 
-<!-- .slide: data-background="./images/section.png" -->
+<!-- .slide: data-background="./images/section-background.png" -->
 # Additional Resources
 
 <!-- - Geonet/support/rene/github/sass (Rene) -->
