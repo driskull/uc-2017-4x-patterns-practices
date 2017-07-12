@@ -88,30 +88,50 @@
 # Lets talk about Widgets!
 
 - ~19 Widgets out of the box
-- Some added by default to view
-- Some SceneView/MapView only
-- More added each release
+- Widgets help make great apps!
+- Less code for you to write
+- Designed with responsive apps in mind
 
 ---
 
-# Widgets: Let's see
+# Default Widgets
+
+- MapView & SceneView
+  - Popup
+  - Attribution
+  - Zoom
+- SceneView
+  - NavigationToggle
+  - Compass
 
 ---
 
-# Widgets: Expand
+# Widgets: SDK
 
----
-
-# Widgets: Default
-
-[Components](https://developers.arcgis.com/javascript/latest/api-reference/esri-views-ui-DefaultUI.html#components)
-  - Plus Popup
+[Widgets in SDK](https://developers.arcgis.com/javascript/latest/api-reference/esri-widgets-Attribution.html)
 
 ---
 
 # Widgets: Popup
 
-- Popup Docking
+- Responsive Design
+- Size changes depending on size of view
+- Can be docked to top, bottom, center and sides
+
+---
+
+<!-- .slide: data-background="./images/section.png" -->
+# Demo
+
+[Popup Demo](../demos/popup-docking/popup-docking.html)
+
+---
+
+# Widgets: Expand
+
+- Collapsable button/panel
+- Can be used with widgets, dom node, HTML
+- Designed for view component use
 
 ---
 
@@ -131,7 +151,6 @@ todo: what is it?
 ---
 
 # View UI: Getting Responsive
-
 
 ---
 
